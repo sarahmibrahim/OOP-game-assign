@@ -1,0 +1,55 @@
+h1 {
+  font-family: "Shadows Into Light";
+}
+body {
+  background-color: black;
+  color: aqua;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+}
+
+#directions {
+ 
+  display: flex;
+  justify-content: space-between;
+}
+.directions-column {
+  padding: 3% 2%;
+}
+button {
+  visibility: initial;
+  display: inline-block;
+}
+
+
+
+#Hall {
+  display: none;
+  background-image: url("doorway2.jpg");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 800px;
+  align-content: center;
+}
+#startgame{
+  
+ 
+  align-content: center;
+}
+#Kitchen {
+  display: none;
+  background-image: url("kitchen.jpg");
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 400px;
+  align-content: center;
+}
+#Dining Room {
+  display: none;
+  background-image: url("DiningRoom.jpg");
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 400px;
+  align-content: center;
+}
